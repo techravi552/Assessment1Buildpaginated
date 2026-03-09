@@ -120,6 +120,7 @@ let valA=a[sortColumn]
 let valB=b[sortColumn]
 
 if(valA<valB) return sortDirection==="asc"?-1:1
+
 if(valA>valB) return sortDirection==="asc"?1:-1
 return 0
 
